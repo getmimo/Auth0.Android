@@ -24,7 +24,6 @@
 
 package com.auth0.android.authentication;
 
-
 import android.content.Context;
 import android.content.res.Resources;
 
@@ -42,8 +41,8 @@ import com.auth0.android.util.Telemetry;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.squareup.okhttp.HttpUrl;
-import com.squareup.okhttp.mockwebserver.RecordedRequest;
+import okhttp3.HttpUrl;
+import okhttp3.mockwebserver.RecordedRequest;
 
 import org.junit.After;
 import org.junit.Before;
@@ -81,7 +80,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(constants = com.auth0.android.auth0.BuildConfig.class, sdk = 21, manifest = Config.NONE)
+@Config(constants = com.auth0.android.auth0.BuildConfig.class, sdk = 25, manifest = Config.NONE)
 public class AuthenticationAPIClientTest {
 
     private static final String CLIENT_ID = "CLIENTID";

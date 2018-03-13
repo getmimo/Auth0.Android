@@ -7,8 +7,8 @@ import com.auth0.android.request.ErrorBuilder;
 import com.auth0.android.request.ParameterizableRequest;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.squareup.okhttp.HttpUrl;
-import com.squareup.okhttp.OkHttpClient;
+import okhttp3.HttpUrl;
+import okhttp3.OkHttpClient;
 
 import org.junit.Before;
 import org.junit.Test;

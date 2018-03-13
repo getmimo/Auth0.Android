@@ -1,6 +1,6 @@
 package com.auth0.android.request.internal;
 
-import com.squareup.okhttp.ResponseBody;
+import okhttp3.ResponseBody;
 
 import org.junit.Rule;
 import org.junit.Test;
